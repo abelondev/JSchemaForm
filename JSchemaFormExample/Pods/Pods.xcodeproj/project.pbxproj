@@ -1,0 +1,782 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01870A56B735FAB7180D1511D0E2723D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2265178CFDBE372CE5292DA0F13D43BF /* Foundation.framework */; };
+		1CC06E3424D10915E6DA95C7028E6B81 /* ReferenceExpander.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2863B2EE9CCC4AB5284100D39634C29 /* ReferenceExpander.swift */; };
+		207635BB8C0CAABC216F550F6688AD2E /* Eureka-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A51B351E5DD434EE2C6EDF12596560DF /* Eureka-dummy.m */; };
+		24C628DBEBAD0CEAED38616C30B80B5F /* Eureka.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D0C19F11F32C912C1014479341867D7 /* Eureka.framework */; };
+		3BD128225C817E839A709A86C614DF98 /* JSchema.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DF38B0A9D38EF142D129B58E14191C7 /* JSchema.swift */; };
+		40A3CA57B7EDC63D5A24BDE02CF70991 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63B4724A6CFB7AB014EB0B82AFD6F0BC /* UIKit.framework */; };
+		446003DB04344E86539E0851F4BF8EA0 /* JSchemaFormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007FED746FEAD19285B380FDB6C7FED8 /* JSchemaFormViewController.swift */; };
+		4A167F0A02781009E95147AC42B05EC5 /* Pods-JSchemaFormsExample-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DE521DEB085529B9394DC5C3257D3B34 /* Pods-JSchemaFormsExample-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		50F435173BFA8CE5DB31BB36D0CA60D1 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = C238C37F2E534F253FA0C2723F13DACE /* Helpers.swift */; };
+		5E211E02E7C5C73867BFFDB14C6C0A1D /* Eureka-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 91C04B7107959BF5E8DD0E81E049FDF7 /* Eureka-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6B856F2FEA9807EF8D90C890EE9BC96C /* Core.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DF6CEEDB05286CB6AD95927EAAE465A /* Core.swift */; };
+		77D48C6D2CE76219AE385BE1FB4CCDE3 /* FormBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F253B516CC145510E1F0D5D3FFA458B /* FormBuilder.swift */; };
+		8A6DAB5366B28EF7D72369C679AAF6AF /* Pods-JSchemaFormsExample-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F4CF502A17815C4E37FB252FBE034CEA /* Pods-JSchemaFormsExample-dummy.m */; };
+		8FB52A08644E3258960B97C84BC3B9D5 /* JForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5DE30E522F5189ECA3720ECC8BC4021 /* JForm.swift */; };
+		913584A7F6C6FF63100372C0082B630B /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFBA4388F96FF6BDEA9FEC95664EED19 /* Constants.swift */; };
+		A01D78A74BD28A41BEBC3664BFAB4090 /* FormResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D9266155EA82EA73E4D570EF46CFDF /* FormResult.swift */; };
+		AB00B6581AD7C62A3D4BB06B70B48095 /* SliderRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96AF73D681F02B8247BDA699934255DF /* SliderRow.swift */; };
+		AD8DC88498A546DD191E320069270756 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2265178CFDBE372CE5292DA0F13D43BF /* Foundation.framework */; };
+		B5F464C70AE29579353E8EFBAE78947B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63B4724A6CFB7AB014EB0B82AFD6F0BC /* UIKit.framework */; };
+		BA6625B24FBC10C479D1227B9BBD7A82 /* FormBuilderError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DAF71997ABE2747402722C3C15730B4 /* FormBuilderError.swift */; };
+		BF6422CC4B41CFCEE6D559D3E72D21D9 /* Controllers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CB35B1B1D1B4E5BF27826CEDE54345B /* Controllers.swift */; };
+		C0313974DA30F2A85C78961D08A80392 /* JsonHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 274E3B20BAF6B3ED477CBF374CF10B61 /* JsonHelper.swift */; };
+		C20F4E61E5B0F55B89EFF5A9D59D6113 /* Cells.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E5DB3FCC79BCF32521D883CEAAE856C /* Cells.swift */; };
+		C36EFBEBE159463914FB3FFAB15E030C /* JSchemaForm-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 59FC9F42F59BB82BA64F877929EF2E6D /* JSchemaForm-dummy.m */; };
+		CA41A4270D299C93A330B5CEE2C0CE21 /* Field.swift in Sources */ = {isa = PBXBuildFile; fileRef = 686F662675099A68DA16E6547288BB59 /* Field.swift */; };
+		D0938A75517D84BC5042E58625149348 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2265178CFDBE372CE5292DA0F13D43BF /* Foundation.framework */; };
+		DC1E423F08EAC1BCA627E5A4D853532F /* Rows.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933F60AA44D0F2C62CD719C97DF4562C /* Rows.swift */; };
+		E16A13E0447DE3323362B9186F16639D /* JSchemaForm-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C71F5B90DECEB914EDEC1B3437D8428 /* JSchemaForm-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E94A8BCA37A6393201A5B867AF2D7DD6 /* JScope.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F929A18BC16484E4299CE8F69C252E0 /* JScope.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		051FE54DF42675584800B2C7EE95BCFF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 40F580A48FF2C38CCBC58A6B3C8F5505;
+			remoteInfo = Eureka;
+		};
+		66EC28D88C05E4BDD4FEEB0CD577134E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC165ED455CE0F5E1E60FD40323FF85F;
+			remoteInfo = JSchemaForm;
+		};
+		923CA2CAD5686C8E289FD108C131996F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 40F580A48FF2C38CCBC58A6B3C8F5505;
+			remoteInfo = Eureka;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		007FED746FEAD19285B380FDB6C7FED8 /* JSchemaFormViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = JSchemaFormViewController.swift; sourceTree = "<group>"; };
+		08271D834508270D9665FBC13C16DD33 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18B44B45226E889CB443206EF984DEDC /* Eureka.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Eureka.modulemap; sourceTree = "<group>"; };
+		1DF6CEEDB05286CB6AD95927EAAE465A /* Core.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Core.swift; path = Source/Core.swift; sourceTree = "<group>"; };
+		1E5DB3FCC79BCF32521D883CEAAE856C /* Cells.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Cells.swift; path = Source/Cells.swift; sourceTree = "<group>"; };
+		2265178CFDBE372CE5292DA0F13D43BF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		272420D75637904D6A8A5C4E60FFF215 /* Pods-JSchemaFormsExample-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JSchemaFormsExample-resources.sh"; sourceTree = "<group>"; };
+		274E3B20BAF6B3ED477CBF374CF10B61 /* JsonHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = JsonHelper.swift; sourceTree = "<group>"; };
+		2C71F5B90DECEB914EDEC1B3437D8428 /* JSchemaForm-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JSchemaForm-umbrella.h"; sourceTree = "<group>"; };
+		34E6004485C3CD28BFC6D0E71A05E6CC /* JSchemaForm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JSchemaForm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		406AAC0A01B4AF8B56272570A3CB1F63 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49D9266155EA82EA73E4D570EF46CFDF /* FormResult.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FormResult.swift; sourceTree = "<group>"; };
+		4F929A18BC16484E4299CE8F69C252E0 /* JScope.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = JScope.swift; sourceTree = "<group>"; };
+		503B9517289F52AA57A192FC00262C4C /* Pods-JSchemaFormsExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JSchemaFormsExample.release.xcconfig"; sourceTree = "<group>"; };
+		59FC9F42F59BB82BA64F877929EF2E6D /* JSchemaForm-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JSchemaForm-dummy.m"; sourceTree = "<group>"; };
+		5DAF71997ABE2747402722C3C15730B4 /* FormBuilderError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FormBuilderError.swift; sourceTree = "<group>"; };
+		5FDE717520FDD3E4EB2E84B94D3CCD29 /* Pods-JSchemaFormsExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JSchemaFormsExample.debug.xcconfig"; sourceTree = "<group>"; };
+		60095527C2CD6F11D3D2770079DB3A61 /* Eureka-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Eureka-prefix.pch"; sourceTree = "<group>"; };
+		60FC3DDFF16CA4FE905CC9F8A815C891 /* JSchemaForm-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JSchemaForm-prefix.pch"; sourceTree = "<group>"; };
+		63B4724A6CFB7AB014EB0B82AFD6F0BC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		686F662675099A68DA16E6547288BB59 /* Field.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Field.swift; sourceTree = "<group>"; };
+		6B77527987863F357D529DE549B84F4C /* Pods-JSchemaFormsExample-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JSchemaFormsExample-acknowledgements.plist"; sourceTree = "<group>"; };
+		6CB35B1B1D1B4E5BF27826CEDE54345B /* Controllers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Controllers.swift; path = Source/Controllers.swift; sourceTree = "<group>"; };
+		6DF38B0A9D38EF142D129B58E14191C7 /* JSchema.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = JSchema.swift; sourceTree = "<group>"; };
+		7936A9EC96882779E89F418316014256 /* Pods-JSchemaFormsExample-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JSchemaFormsExample-frameworks.sh"; sourceTree = "<group>"; };
+		8A75E76F3AC104108E4B4E2941B504EE /* Pods-JSchemaFormsExample.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-JSchemaFormsExample.modulemap"; sourceTree = "<group>"; };
+		91C04B7107959BF5E8DD0E81E049FDF7 /* Eureka-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Eureka-umbrella.h"; sourceTree = "<group>"; };
+		933F60AA44D0F2C62CD719C97DF4562C /* Rows.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Rows.swift; path = Source/Rows.swift; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		96AF73D681F02B8247BDA699934255DF /* SliderRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SliderRow.swift; path = Source/SliderRow.swift; sourceTree = "<group>"; };
+		9D0C19F11F32C912C1014479341867D7 /* Eureka.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Eureka.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F253B516CC145510E1F0D5D3FFA458B /* FormBuilder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FormBuilder.swift; sourceTree = "<group>"; };
+		A51B351E5DD434EE2C6EDF12596560DF /* Eureka-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Eureka-dummy.m"; sourceTree = "<group>"; };
+		AA9C6B1C462989F16410A9A88A78D89F /* Eureka.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Eureka.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3AF733F8B2E8A51A1A305B29D964C35 /* JSchemaForm.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JSchemaForm.xcconfig; sourceTree = "<group>"; };
+		B78E5B6AEB93D9E819104A4241AF7241 /* Pods-JSchemaFormsExample-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JSchemaFormsExample-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BC3BB4EB2F8E8261D8E39085BDF15887 /* JSchemaForm.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = JSchemaForm.modulemap; sourceTree = "<group>"; };
+		C238C37F2E534F253FA0C2723F13DACE /* Helpers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Helpers.swift; path = Source/Helpers.swift; sourceTree = "<group>"; };
+		C55E509C66E9588947F8FD7F4F24917F /* Eureka.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Eureka.xcconfig; sourceTree = "<group>"; };
+		C7ACB59CE9F80CC742FBC327DD39037F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE521DEB085529B9394DC5C3257D3B34 /* Pods-JSchemaFormsExample-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JSchemaFormsExample-umbrella.h"; sourceTree = "<group>"; };
+		DFBA4388F96FF6BDEA9FEC95664EED19 /* Constants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		E2863B2EE9CCC4AB5284100D39634C29 /* ReferenceExpander.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReferenceExpander.swift; sourceTree = "<group>"; };
+		EAD3AA9594B877DCDBA0E57C7C7FFFFE /* Pods_JSchemaFormsExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JSchemaFormsExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4CF502A17815C4E37FB252FBE034CEA /* Pods-JSchemaFormsExample-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JSchemaFormsExample-dummy.m"; sourceTree = "<group>"; };
+		F5DE30E522F5189ECA3720ECC8BC4021 /* JForm.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = JForm.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		040273BF0D4DC07CAB3A4C592DBD4469 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01870A56B735FAB7180D1511D0E2723D /* Foundation.framework in Frameworks */,
+				40A3CA57B7EDC63D5A24BDE02CF70991 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10D9AF395B4ED432C4835D7FA7049832 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24C628DBEBAD0CEAED38616C30B80B5F /* Eureka.framework in Frameworks */,
+				AD8DC88498A546DD191E320069270756 /* Foundation.framework in Frameworks */,
+				B5F464C70AE29579353E8EFBAE78947B /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F78D0D94381949A4147526121F177D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0938A75517D84BC5042E58625149348 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F622E20A77057EE125D9AC645D3BB6C /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F0C4437E161C0082ECF1DC73BF78DDD3 /* JSchemaForm */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		2C7EA2AA60404F08794B135C0CBAB412 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D851B079D8232101315903733CD38196 /* Pods-JSchemaFormsExample */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		398DE4F097503AE7ACCC54E9AF9F4B2A /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				2265178CFDBE372CE5292DA0F13D43BF /* Foundation.framework */,
+				63B4724A6CFB7AB014EB0B82AFD6F0BC /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		45E70F0F7A16BFA6A880BD8C5536E777 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F176585C48668107593CA3D84BB87270 /* Eureka */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		52B3013BC4160931F5B17965C427A0BF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA9C6B1C462989F16410A9A88A78D89F /* Eureka.framework */,
+				34E6004485C3CD28BFC6D0E71A05E6CC /* JSchemaForm.framework */,
+				EAD3AA9594B877DCDBA0E57C7C7FFFFE /* Pods_JSchemaFormsExample.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				0F622E20A77057EE125D9AC645D3BB6C /* Development Pods */,
+				D256155DD324B95CA87557494379336D /* Frameworks */,
+				45E70F0F7A16BFA6A880BD8C5536E777 /* Pods */,
+				52B3013BC4160931F5B17965C427A0BF /* Products */,
+				2C7EA2AA60404F08794B135C0CBAB412 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		80352A4C6DAD94538CAC910DB5DDCA43 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				18B44B45226E889CB443206EF984DEDC /* Eureka.modulemap */,
+				C55E509C66E9588947F8FD7F4F24917F /* Eureka.xcconfig */,
+				A51B351E5DD434EE2C6EDF12596560DF /* Eureka-dummy.m */,
+				60095527C2CD6F11D3D2770079DB3A61 /* Eureka-prefix.pch */,
+				91C04B7107959BF5E8DD0E81E049FDF7 /* Eureka-umbrella.h */,
+				406AAC0A01B4AF8B56272570A3CB1F63 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Eureka";
+			sourceTree = "<group>";
+		};
+		BFA155C457AAB3AF845EFB783E294E13 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				DFBA4388F96FF6BDEA9FEC95664EED19 /* Constants.swift */,
+				686F662675099A68DA16E6547288BB59 /* Field.swift */,
+				9F253B516CC145510E1F0D5D3FFA458B /* FormBuilder.swift */,
+				5DAF71997ABE2747402722C3C15730B4 /* FormBuilderError.swift */,
+				49D9266155EA82EA73E4D570EF46CFDF /* FormResult.swift */,
+				F5DE30E522F5189ECA3720ECC8BC4021 /* JForm.swift */,
+				6DF38B0A9D38EF142D129B58E14191C7 /* JSchema.swift */,
+				007FED746FEAD19285B380FDB6C7FED8 /* JSchemaFormViewController.swift */,
+				4F929A18BC16484E4299CE8F69C252E0 /* JScope.swift */,
+				274E3B20BAF6B3ED477CBF374CF10B61 /* JsonHelper.swift */,
+				E2863B2EE9CCC4AB5284100D39634C29 /* ReferenceExpander.swift */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		D256155DD324B95CA87557494379336D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9D0C19F11F32C912C1014479341867D7 /* Eureka.framework */,
+				398DE4F097503AE7ACCC54E9AF9F4B2A /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D3FE56608093352A7D810626E8FD12E3 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C7ACB59CE9F80CC742FBC327DD39037F /* Info.plist */,
+				BC3BB4EB2F8E8261D8E39085BDF15887 /* JSchemaForm.modulemap */,
+				B3AF733F8B2E8A51A1A305B29D964C35 /* JSchemaForm.xcconfig */,
+				59FC9F42F59BB82BA64F877929EF2E6D /* JSchemaForm-dummy.m */,
+				60FC3DDFF16CA4FE905CC9F8A815C891 /* JSchemaForm-prefix.pch */,
+				2C71F5B90DECEB914EDEC1B3437D8428 /* JSchemaForm-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "JSchemaFormExample/Pods/Target Support Files/JSchemaForm";
+			sourceTree = "<group>";
+		};
+		D851B079D8232101315903733CD38196 /* Pods-JSchemaFormsExample */ = {
+			isa = PBXGroup;
+			children = (
+				08271D834508270D9665FBC13C16DD33 /* Info.plist */,
+				8A75E76F3AC104108E4B4E2941B504EE /* Pods-JSchemaFormsExample.modulemap */,
+				B78E5B6AEB93D9E819104A4241AF7241 /* Pods-JSchemaFormsExample-acknowledgements.markdown */,
+				6B77527987863F357D529DE549B84F4C /* Pods-JSchemaFormsExample-acknowledgements.plist */,
+				F4CF502A17815C4E37FB252FBE034CEA /* Pods-JSchemaFormsExample-dummy.m */,
+				7936A9EC96882779E89F418316014256 /* Pods-JSchemaFormsExample-frameworks.sh */,
+				272420D75637904D6A8A5C4E60FFF215 /* Pods-JSchemaFormsExample-resources.sh */,
+				DE521DEB085529B9394DC5C3257D3B34 /* Pods-JSchemaFormsExample-umbrella.h */,
+				5FDE717520FDD3E4EB2E84B94D3CCD29 /* Pods-JSchemaFormsExample.debug.xcconfig */,
+				503B9517289F52AA57A192FC00262C4C /* Pods-JSchemaFormsExample.release.xcconfig */,
+			);
+			name = "Pods-JSchemaFormsExample";
+			path = "Target Support Files/Pods-JSchemaFormsExample";
+			sourceTree = "<group>";
+		};
+		F0C4437E161C0082ECF1DC73BF78DDD3 /* JSchemaForm */ = {
+			isa = PBXGroup;
+			children = (
+				BFA155C457AAB3AF845EFB783E294E13 /* Source */,
+				D3FE56608093352A7D810626E8FD12E3 /* Support Files */,
+			);
+			name = JSchemaForm;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		F176585C48668107593CA3D84BB87270 /* Eureka */ = {
+			isa = PBXGroup;
+			children = (
+				1E5DB3FCC79BCF32521D883CEAAE856C /* Cells.swift */,
+				6CB35B1B1D1B4E5BF27826CEDE54345B /* Controllers.swift */,
+				1DF6CEEDB05286CB6AD95927EAAE465A /* Core.swift */,
+				C238C37F2E534F253FA0C2723F13DACE /* Helpers.swift */,
+				933F60AA44D0F2C62CD719C97DF4562C /* Rows.swift */,
+				96AF73D681F02B8247BDA699934255DF /* SliderRow.swift */,
+				80352A4C6DAD94538CAC910DB5DDCA43 /* Support Files */,
+			);
+			path = Eureka;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		A25F08204BAA24CA80F17E5EA98D2CE0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A167F0A02781009E95147AC42B05EC5 /* Pods-JSchemaFormsExample-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A832538AC98F6F29C8A993147B7BE676 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E16A13E0447DE3323362B9186F16639D /* JSchemaForm-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2A59BA6BBA59F28E2E13B76A10FDE9B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E211E02E7C5C73867BFFDB14C6C0A1D /* Eureka-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		40F580A48FF2C38CCBC58A6B3C8F5505 /* Eureka */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 026A25EC0ACC13CD0A3713EC952EDBC9 /* Build configuration list for PBXNativeTarget "Eureka" */;
+			buildPhases = (
+				EBB4F6C155BA74C113861BD3AB93802A /* Sources */,
+				040273BF0D4DC07CAB3A4C592DBD4469 /* Frameworks */,
+				E2A59BA6BBA59F28E2E13B76A10FDE9B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Eureka;
+			productName = Eureka;
+			productReference = AA9C6B1C462989F16410A9A88A78D89F /* Eureka.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BC165ED455CE0F5E1E60FD40323FF85F /* JSchemaForm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3848C862A888243AF0E49BFC91F85DC1 /* Build configuration list for PBXNativeTarget "JSchemaForm" */;
+			buildPhases = (
+				B1A6124207460B25221E8F86E2CC2F7B /* Sources */,
+				10D9AF395B4ED432C4835D7FA7049832 /* Frameworks */,
+				A832538AC98F6F29C8A993147B7BE676 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				51C22DEAB0D67CB39B3135F655C9448A /* PBXTargetDependency */,
+			);
+			name = JSchemaForm;
+			productName = JSchemaForm;
+			productReference = 34E6004485C3CD28BFC6D0E71A05E6CC /* JSchemaForm.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C457A8C9162DDA3B4BEFFF1FABFB7601 /* Pods-JSchemaFormsExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE7B336167652366A6AB22D94930DA93 /* Build configuration list for PBXNativeTarget "Pods-JSchemaFormsExample" */;
+			buildPhases = (
+				052DEE2507C80AB6B02CF023971DDBEF /* Sources */,
+				5F78D0D94381949A4147526121F177D7 /* Frameworks */,
+				A25F08204BAA24CA80F17E5EA98D2CE0 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEACC57ACFBA6F0C3F630BAC44A6A8D1 /* PBXTargetDependency */,
+				118E0F3C7415A839DDF1C294864E9042 /* PBXTargetDependency */,
+			);
+			name = "Pods-JSchemaFormsExample";
+			productName = "Pods-JSchemaFormsExample";
+			productReference = EAD3AA9594B877DCDBA0E57C7C7FFFFE /* Pods_JSchemaFormsExample.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 52B3013BC4160931F5B17965C427A0BF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				40F580A48FF2C38CCBC58A6B3C8F5505 /* Eureka */,
+				BC165ED455CE0F5E1E60FD40323FF85F /* JSchemaForm */,
+				C457A8C9162DDA3B4BEFFF1FABFB7601 /* Pods-JSchemaFormsExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		052DEE2507C80AB6B02CF023971DDBEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A6DAB5366B28EF7D72369C679AAF6AF /* Pods-JSchemaFormsExample-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1A6124207460B25221E8F86E2CC2F7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				913584A7F6C6FF63100372C0082B630B /* Constants.swift in Sources */,
+				CA41A4270D299C93A330B5CEE2C0CE21 /* Field.swift in Sources */,
+				77D48C6D2CE76219AE385BE1FB4CCDE3 /* FormBuilder.swift in Sources */,
+				BA6625B24FBC10C479D1227B9BBD7A82 /* FormBuilderError.swift in Sources */,
+				A01D78A74BD28A41BEBC3664BFAB4090 /* FormResult.swift in Sources */,
+				8FB52A08644E3258960B97C84BC3B9D5 /* JForm.swift in Sources */,
+				3BD128225C817E839A709A86C614DF98 /* JSchema.swift in Sources */,
+				C36EFBEBE159463914FB3FFAB15E030C /* JSchemaForm-dummy.m in Sources */,
+				446003DB04344E86539E0851F4BF8EA0 /* JSchemaFormViewController.swift in Sources */,
+				E94A8BCA37A6393201A5B867AF2D7DD6 /* JScope.swift in Sources */,
+				C0313974DA30F2A85C78961D08A80392 /* JsonHelper.swift in Sources */,
+				1CC06E3424D10915E6DA95C7028E6B81 /* ReferenceExpander.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBB4F6C155BA74C113861BD3AB93802A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C20F4E61E5B0F55B89EFF5A9D59D6113 /* Cells.swift in Sources */,
+				BF6422CC4B41CFCEE6D559D3E72D21D9 /* Controllers.swift in Sources */,
+				6B856F2FEA9807EF8D90C890EE9BC96C /* Core.swift in Sources */,
+				207635BB8C0CAABC216F550F6688AD2E /* Eureka-dummy.m in Sources */,
+				50F435173BFA8CE5DB31BB36D0CA60D1 /* Helpers.swift in Sources */,
+				DC1E423F08EAC1BCA627E5A4D853532F /* Rows.swift in Sources */,
+				AB00B6581AD7C62A3D4BB06B70B48095 /* SliderRow.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		118E0F3C7415A839DDF1C294864E9042 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JSchemaForm;
+			target = BC165ED455CE0F5E1E60FD40323FF85F /* JSchemaForm */;
+			targetProxy = 66EC28D88C05E4BDD4FEEB0CD577134E /* PBXContainerItemProxy */;
+		};
+		51C22DEAB0D67CB39B3135F655C9448A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Eureka;
+			target = 40F580A48FF2C38CCBC58A6B3C8F5505 /* Eureka */;
+			targetProxy = 923CA2CAD5686C8E289FD108C131996F /* PBXContainerItemProxy */;
+		};
+		CEACC57ACFBA6F0C3F630BAC44A6A8D1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Eureka;
+			target = 40F580A48FF2C38CCBC58A6B3C8F5505 /* Eureka */;
+			targetProxy = 051FE54DF42675584800B2C7EE95BCFF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0E571DD6491A892977DC8EDAE6C54B05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C55E509C66E9588947F8FD7F4F24917F /* Eureka.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Eureka/Eureka-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Eureka/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Eureka/Eureka.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Eureka;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		47BEF9D903506B003EA5C2B249729489 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		4FA0608FC3F80857151D8DAC1CE124A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5FDE717520FDD3E4EB2E84B94D3CCD29 /* Pods-JSchemaFormsExample.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-JSchemaFormsExample/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JSchemaFormsExample/Pods-JSchemaFormsExample.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_JSchemaFormsExample;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		503E76D8F52629A4A2C8F2748CCA1632 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C55E509C66E9588947F8FD7F4F24917F /* Eureka.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Eureka/Eureka-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Eureka/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Eureka/Eureka.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Eureka;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5CA45E090D28177D6D639044485866A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3AF733F8B2E8A51A1A305B29D964C35 /* JSchemaForm.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/JSchemaForm/JSchemaForm-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JSchemaForm/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JSchemaForm/JSchemaForm.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = JSchemaForm;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9C8A6C80CC70C42175AEFA02853E8EFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 503B9517289F52AA57A192FC00262C4C /* Pods-JSchemaFormsExample.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-JSchemaFormsExample/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JSchemaFormsExample/Pods-JSchemaFormsExample.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_JSchemaFormsExample;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AAF678CED40D3499169D10F63CA0719E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D763A6EF99C5C0E7C9D7D3F0A532C332 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3AF733F8B2E8A51A1A305B29D964C35 /* JSchemaForm.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/JSchemaForm/JSchemaForm-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JSchemaForm/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JSchemaForm/JSchemaForm.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = JSchemaForm;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		026A25EC0ACC13CD0A3713EC952EDBC9 /* Build configuration list for PBXNativeTarget "Eureka" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				503E76D8F52629A4A2C8F2748CCA1632 /* Debug */,
+				0E571DD6491A892977DC8EDAE6C54B05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47BEF9D903506B003EA5C2B249729489 /* Debug */,
+				AAF678CED40D3499169D10F63CA0719E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3848C862A888243AF0E49BFC91F85DC1 /* Build configuration list for PBXNativeTarget "JSchemaForm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CA45E090D28177D6D639044485866A7 /* Debug */,
+				D763A6EF99C5C0E7C9D7D3F0A532C332 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE7B336167652366A6AB22D94930DA93 /* Build configuration list for PBXNativeTarget "Pods-JSchemaFormsExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FA0608FC3F80857151D8DAC1CE124A1 /* Debug */,
+				9C8A6C80CC70C42175AEFA02853E8EFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

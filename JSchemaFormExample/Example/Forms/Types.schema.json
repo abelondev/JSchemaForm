@@ -1,0 +1,51 @@
+{
+    "type": "object",
+    "title": "Types",
+    "properties": {
+        "string": {
+            "type": "string",
+            "minLength": 3
+        },
+        "integer": {
+            "type": "integer"
+        },
+        "number": {
+            "type": "number"
+        },
+        "shoesizeRight": {
+            "title": "Shoe size (right)",
+            "default": 42,
+            "type": "number"
+        },
+        "boolean": {
+            "type": "boolean"
+        },
+        "date": {
+            "type": "string",
+            "format": "date"
+        },
+        "date-time": {
+            "type": "string",
+            "format": "date-time"
+        },
+        "time": {
+            "type": "string",
+            "format": "time"
+        },
+        "countdown": {
+            "type": "string",
+            "format": "countdown"
+        },
+        "radio": {
+            "title": "Radio type",
+            "type": "string",
+            "enum": [
+                     "Transistor",
+                     "Tube"
+                     ]
+        },
+    },
+    "required": [
+                 "number"
+                 ]
+}

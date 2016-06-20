@@ -1,0 +1,99 @@
+{
+    "form": [
+             { "key":"type",
+             "type": "select",
+             "titleMap": {"#ref":"#/type" }
+             },
+             "title",
+             "description",
+             "contact",
+             "startDate",
+             "dueDate",
+             "priority",
+             "assignTo"],
+    
+  
+    "schema":{
+    "required": ["title", "dueDate"],
+    "type": "object",
+    "title": "Comment",
+    "properties": {
+        "title": {
+            "title": "Title",
+            "type": "string"
+        },
+        "description": {
+            "title": "Description",
+            "type": "string",
+        },
+        "contact": {
+            "title": "Contact",
+            "type": "string",
+        },
+        "startDate": {
+            "title": "Start Date",
+            "type": "string",
+            "format": "date-time"
+        },
+        "dueDate": {
+            "title": "Due Date",
+            "type": "string",
+            "format": "date-time"
+        },
+        "type": {
+            "title": "Type",
+            "type": "string"
+        },
+        "priority": {
+            "title": "Priority",
+            "type": "string",
+            "enum": [
+                     "Low",
+                     "High",
+                     "Urgent"
+                     ]
+        },
+        "supervisor": {
+            "title": "Supervisor",
+            "type": "string",
+            "enum": [
+                     "SSS 1",
+                     "SSS 2",
+                     "SSS 3"
+                     ]
+        },
+        "assignTo": {
+            "title": "Assign To",
+            "type": "string",
+            "enum": [
+                     "SSS 1",
+                     "SSS 2",
+                     "SSS 3"
+                     ]
+        },
+    }
+  },
+  "type": [
+                 {
+                 "value": "callback",
+                 "name": "Call Back"
+                 },
+                 {
+                 "value": "follow up",
+                 "name": "Follow Up"
+                 },
+                 {
+                 "value": "other",
+                 "name": "Other"
+                 },
+                 {
+                 "value": "office",
+                 "name": "Office"
+                 },
+                 {
+                 "value": "personal",
+                 "name": "Personal"
+                 }
+    ]
+
+}
