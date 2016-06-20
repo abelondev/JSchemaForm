@@ -1,2 +1,2 @@
-# jschema-form
+# JSchemaForm
 Json Schema Form Generator
