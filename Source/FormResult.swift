@@ -1,6 +1,6 @@
 //
 //  FormResult.swift
-//  JSchemaFormsExample
+//  JSchemaFormExample
 //
 //  Created by Andrey Belonogov on 3/12/16.
 //  Copyright © 2016 Andrey Belonogov. All rights reserved.

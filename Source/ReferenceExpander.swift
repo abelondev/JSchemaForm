@@ -1,6 +1,6 @@
 //
 //  ReferenceExpander.swift
-//  JSchemaFormsExample
+//  JSchemaFormExample
 //
 //  Created by Andrey Belonogov on 12/26/15.
 //  Copyright © 2015 Andrey Belonogov. All rights reserved.

@@ -2,9 +2,9 @@ source 'https://github.com/CocoaPods/Specs.git'
 platform :ios, '8.0'
 use_frameworks!
 
-target 'JSchemaFormsExample' do
+target 'JSchemaFormExample' do
     #pod 'Eureka', :git => "https://github.com/xmartlabs/Eureka.git"
-  pod 'JSchemaForms', :path => "../"
+  pod 'JSchemaForm', :path => "../"
 end
 
-project 'JSchemaFormsExample.xcodeproj'
+project 'JSchemaFormExample.xcodeproj'

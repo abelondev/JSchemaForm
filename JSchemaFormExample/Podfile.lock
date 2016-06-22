@@ -1,0 +1,19 @@
+PODS:
+  - Eureka (1.6.0)
+  - JSchemaForm (0.4):
+    - Eureka (~> 1.6.0)
+
+DEPENDENCIES:
+  - JSchemaForm (from `../`)
+
+EXTERNAL SOURCES:
+  JSchemaForm:
+    :path: ../
+
+SPEC CHECKSUMS:
+  Eureka: ef5b9ac93aedeecfe50d98b1ac7678bf09a1fc62
+  JSchemaForm: 68513027c9265e5412ffd9ec08f746da54d0f23c
+
+PODFILE CHECKSUM: ecc1ec8a465568bb3fbd09fe4cbc1a587af90a84
+
+COCOAPODS: 1.0.1
