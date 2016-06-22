@@ -9,7 +9,7 @@
 import Foundation
 import Eureka
 
-@objc public class JSchemaFormViewController: FormViewController {
+public class JSchemaFormViewController: FormViewController {
     
     private var _scope:JScope?;
     public var scope:JScope? {

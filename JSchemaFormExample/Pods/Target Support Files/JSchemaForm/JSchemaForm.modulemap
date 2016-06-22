@@ -1,6 +1,0 @@
-framework module JSchemaForm {
-  umbrella header "JSchemaForm-umbrella.h"
-
-  export *
-  module * { export * }
-}
