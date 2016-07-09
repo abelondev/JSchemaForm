@@ -1,7 +1,7 @@
 PODS:
-  - Eureka (1.6.0)
+  - Eureka (1.7.0)
   - JSchemaForm (0.4):
-    - Eureka (~> 1.6.0)
+    - Eureka (~> 1.7.0)
 
 DEPENDENCIES:
   - JSchemaForm (from `../`)
@@ -11,8 +11,8 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  Eureka: ef5b9ac93aedeecfe50d98b1ac7678bf09a1fc62
-  JSchemaForm: 68513027c9265e5412ffd9ec08f746da54d0f23c
+  Eureka: 2020d9faeef7b7e9adeb9e3d8af779e5931c1897
+  JSchemaForm: e5bcc8d0915f633de3ba5026366eebf64f4dbf98
 
 PODFILE CHECKSUM: ecc1ec8a465568bb3fbd09fe4cbc1a587af90a84
 

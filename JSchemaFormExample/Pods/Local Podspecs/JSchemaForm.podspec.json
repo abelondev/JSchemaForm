@@ -24,7 +24,7 @@
   "source_files": "Source/**/*.swift",
   "dependencies": {
     "Eureka": [
-      "~> 1.6.0"
+      "~> 1.7.0"
     ]
   }
 }

@@ -114,7 +114,7 @@ public class FormBuilder {
         
         var form = Form();
         let section = Section();
-        form +++= section
+        form +++ section
         
         let fieldList = try Field.fieldList(rootSchemaProperties, formItems: rootForm?.items, requiredItems: rootSchema.requiredKeys)
         for field in fieldList {

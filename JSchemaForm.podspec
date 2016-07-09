@@ -13,6 +13,6 @@ Pod::Spec.new do |s|
   s.homepage = 'http://gosubits.com'
   s.source = { :path => './' }
   s.source_files = 'Source/**/*.swift'
-  s.dependency 'Eureka', '~> 1.6.0'
+  s.dependency 'Eureka', '~> 1.7.0'
 
 end
